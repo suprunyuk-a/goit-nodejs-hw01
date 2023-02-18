@@ -1,8 +1,31 @@
 {
+  "name": "goit-nodejs-hw01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --ignore db/contacts.json index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suprunyuk-a/goit-nodejs-hw01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suprunyuk-a/goit-nodejs-hw01/issues"
+  },
+  "homepage": "https://github.com/suprunyuk-a/goit-nodejs-hw01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
   "dependencies": {
     "commander": "^10.0.0",
     "fs": "^0.0.1-security",
     "nodemon": "^2.0.20",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "uuid": "^9.0.0"
   }
 }
